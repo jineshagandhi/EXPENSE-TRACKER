@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #DEF2F1; 
+    color: #333; 
+}
+
+header {
+    background-color: #3AAFA9; 
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-family:'Bree Serif';
+}
+
+.logo {
+    width: 40px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.logo-text {
+    font-size: 24px;
+    text-align: center;
+    color: #17252A; 
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #17252A; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #ffffff; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.section1 {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #ffffff; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #d1d1d1; 
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #3AAFA9; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3AAFA9; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3AAFA9; 
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.welcome-image {
+    width: 100%;
+    max-width: 400px; /* Increase the width cap */
+    height: auto;
+    min-height: 250px; /* Ensures it doesn't get too small */
+    margin-top: 20px;
+}
+
+.login-section {
+    width: 100%;
+    max-width: 500px; /* Increased max-width for bigger size */
+    padding: 60px; /* Increased padding for more space */
+    margin: 50px auto; /* Add margin at the top to create space from the navbar */
+    background-color: #ffffff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px; 
+}
+
+/* Style for the heading */
+.login-section h2 {
+    margin-bottom: 40px;
+}
+
+/* Flexbox layout for form inputs */
+.login-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form input fields styling */
+.login-section form input {
+    margin-bottom: 15px;
+    padding: 15px; /* Increased padding for larger input fields */
+    border: 1px solid #d1d1d1; 
+    border-radius: 5px;
+}
+
+/* Submit button styling */
+.login-section form button {
+    padding: 15px; /* Increased button size */
+    background-color: #ff6f61; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.login-section form button:hover {
+    background-color: #ff4c4c; 
+}

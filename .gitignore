@@ -1,0 +1,26 @@
+# Environment
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies
+vendor/
+node_modules/
+
+# Docker
+docker-data/
+
+# Temp files
+*.tmp
+*.bak
